@@ -1,10 +1,10 @@
 
-import profile from './profile.png';
+import profile from './profile.jpg';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Amelia",
   links: [
     {
       title: "About",
@@ -15,6 +15,10 @@ export const navigation = {
       link: "#projects",
     },
     {
+      title: "Talks",
+      link: "#talks",
+    },
+    {
       title: "Contact",
       link: "#contact",
     },
@@ -22,14 +26,10 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
+  title: "Amelia Baum",
   description: "A Computer Engineer creating mobile apps and static websites.",
   image: profile.src,
   buttons: [
@@ -49,9 +49,7 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "this is me.",
   ],
 }
 
@@ -102,26 +100,16 @@ export const projects = {
         },
       ]
     },
-    {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-      icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
-        },
-      ]
-    },
   ],
 }
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at amelia_b@mit.edu.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:amelia_b@mit.edu",
       isPrimary: true,
     },
     {
@@ -135,35 +123,31 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Masters Student | Trasit Technology Professional",
+  description: "TODO bio",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
   title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  description: "Masters Student | Trasit Technology Professional",
   cards: [
-    {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
-    },
+    // {
+    //   title: "My website",
+    //   link: "https://hashirshoaeb.com/",
+    // },
+    // {
+    //   title: "QuranTalk App",
+    //   link: "https://www.qurantalk.app/",
+    // },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/abaum1/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/ameliabaum/",
     },
   ]
 }

@@ -6,9 +6,9 @@
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Amelia Baum",
+    "email": "amelia_b@mit.edu",
+    "url": "https://github.com/abaum1"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
