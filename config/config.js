@@ -153,23 +153,15 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Masters Student | Transit Technology Professional",
-  description: "TODO bio",
+  // description: "TODO bio",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Masters Student | Trasnit Technology Professional",
+  title: "@abaum1",
+  description: "Masters Student | Transit Technology Professional",
   cards: [
-    // {
-    //   title: "My website",
-    //   link: "https://hashirshoaeb.com/",
-    // },
-    // {
-    //   title: "QuranTalk App",
-    //   link: "https://www.qurantalk.app/",
-    // },
     {
       title: "My GitHub",
       link: "https://github.com/abaum1/",
