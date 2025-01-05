@@ -1,6 +1,6 @@
 
 import profile from './profile.jpg';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faGoogle, faGithub, arrowRight, faGooglePlay, faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -30,7 +30,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Amelia Baum",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  description: "Currently: Masters Student @ MIT Transit Lab | Formerly: Software Engineer @ Swiftly, Inc.",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://docs.google.com/document/d/1SG2S9Gy1tyDesWskZaemnE_qs_W1mjEtShKS09XS0fI/edit?tab=t.0",
       isPrimary: false,
     },
   ],
@@ -49,21 +49,47 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "this is me.",
+    "I am a transit technology professional with 5 years of experience working in fast-paced, innovative industry and research environments. My technical background in transportation planning, data science, and software engineering, combined with experience working in the public transit domain, has allowed me to deliver diverse projects effectively to a variety of stakeholders.",
   ],
 }
 
-export const work = {
-  title: "What I do",
+export const talks = {
+  title: "Talks",
+  link: "Talks",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Improving Bus Operator Quality of Life: Scheduling Innovations and A Validation Plan",
+      description: "Washington Metropolitan Area Transit Authority | Washington, D.C. | January 9, 2025",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Bus Operator Work Preferences: A Case Study at Chicago Transit Authority",
+      description: "TRB | Washington, D.C. | January 6, 2025",
+      icons: null,
+    },
+    {
+      title: "Block Run Scheduling For Bus Driver Retention",
+      description: "GIRO Users Conference | Montreal, QC | September 13, 2024",
+      icons: null,
+    },
+    {
+      title: "A Clustering Based Analysis for Understanding Bus Driver Work Preferences",
+      description: "Transit Data Conference | London, UK | July 2, 2024",
+      icons: null,
+    },
+    {
+      title: "A Bold Proposal For Block Run Scheduling",
+      description: "Chicago Transit Authority | Chicago, IL | June 3, 2024",
+      icons: null,
+    },
+    // {
+    //   title: "Schedule Design for Bus Driver Retention",
+    //   description: "Washington Metropolitan Area Transit Authority | Washington, D.C. | January 12, 2024",
+    //   icons: null,
+    // },
+    {
+      title: "Schedule Design for Bus Driver Retention",
+      description: "Chicago Transit Authority | Chicago, IL | February 17, 2024",
       icons: null,
     }
   ],
@@ -73,30 +99,38 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Marginal Or Meaningful?",
+      description: "An immersive tool for exploring the impacts of the MBTA Communities Act",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+          icon: faGoogle,
+          link: "https://www.mbtaca.homes/",
         },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
+
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Reinforcement Learning for Extraboard Operator Assignment",
+      description: "A project to optimize extraboard operator assignment using reinforcement learning",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+          icon: faGithub,
+          link: "https://github.com/abaum1/1.200-project",
         },
         {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          icon: faGoogleDrive,
+          link: "https://docs.google.com/presentation/d/1anEAXVbz81D2XNCvcjuw7p-StROPhREMYzv59s-w_X8/edit#slide=id.p",
+        },
+
+      ]
+    },
+    {
+      title: "SF Travel Demand Tool",
+      description: "A user-friendly, public-facing Javascript web application to visualize projected travel demand for proposed developments in San Francisco",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://sftraveldemand.sfcta.org/",
         },
       ]
     },
@@ -105,17 +139,12 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at amelia_b@mit.edu.",
+  description: "Want to talk about buses, trains, bikes or a cool role in transit technology? Please email me at amelia_b@mit.edu.",
   buttons: [
     {
       title: "Email Me",
       link: "mailto:amelia_b@mit.edu",
       isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
     },
   ]
 }
@@ -123,7 +152,7 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Masters Student | Trasit Technology Professional",
+  title: "Masters Student | Transit Technology Professional",
   description: "TODO bio",
   image: profile.src,
 }
@@ -131,7 +160,7 @@ export const SEO = {
 export const links = {
   image: profile.src,
   title: "@hashirshoaeb",
-  description: "Masters Student | Trasit Technology Professional",
+  description: "Masters Student | Trasnit Technology Professional",
   cards: [
     // {
     //   title: "My website",
